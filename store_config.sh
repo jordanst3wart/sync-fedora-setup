@@ -22,8 +22,8 @@ gnomeExt(){
   # /usr/share/gnome-shell/extensions/
 }
 
-rpmOsT(){
-  rpm-ostree status
+rpmOst(){
+  rpm-ostree status > rpm_ostress.txt
 }
 # cp extensions-folder :|
 
@@ -42,3 +42,8 @@ dnf(){
 }
 
 # https://www.reddit.com/r/gnome/comments/20i743/syncing_gnome_settings_and_extensions_between/cg3phrf/
+
+gnomeExt
+save_dconf
+dnf
+rpmOst

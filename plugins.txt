@@ -1,0 +1,54 @@
+dash-to-dock@micxgx.gmail.com
+  Name: Dash to Dock
+  Description: A dock for the Gnome Shell. This extension moves the dash out of the overview transforming it in a dock for an easier launching of applications and a faster switching between windows and desktops. Side and bottom placement options are available.
+  Path: /home/jstewart/.local/share/gnome-shell/extensions/dash-to-dock@micxgx.gmail.com
+  URL: https://micheleg.github.io/dash-to-dock/
+  Original author: micxgx@gmail.com
+  Version: 67
+  State: ENABLED
+apps-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Applications Menu
+  Description: Add a category-based menu for applications.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/apps-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED
+background-logo@fedorahosted.org
+  Name: Background Logo
+  Description: Overlay a tasteful logo on the background to enhance the user experience
+  Path: /usr/share/gnome-shell/extensions/background-logo@fedorahosted.org
+  URL: https://pagure.io/background-logo-extension
+  State: ENABLED
+horizontal-workspaces@gnome-shell-extensions.gcampax.github.com
+  Name: Horizontal workspaces
+  Description: Use a horizontal workspace layout
+  Path: /usr/share/gnome-shell/extensions/horizontal-workspaces@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED
+launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  Name: Launch new instance
+  Description: Always launch a new instance when clicking in the dash or the application view.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/launch-new-instance@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED
+places-menu@gnome-shell-extensions.gcampax.github.com
+  Name: Places Status Indicator
+  Description: Add a menu for quickly navigating places in the system.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/places-menu@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED
+user-theme@gnome-shell-extensions.gcampax.github.com
+  Name: User Themes
+  Description: Load shell themes from user directory.
+  Path: /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED
+window-list@gnome-shell-extensions.gcampax.github.com
+  Name: Window List
+  Description: Display a window list at the bottom of the screen.
+This extension is part of Classic Mode and is officially supported by GNOME. Please do not report bugs using the form below, use GNOME's GitLab instance instead.
+  Path: /usr/share/gnome-shell/extensions/window-list@gnome-shell-extensions.gcampax.github.com
+  URL: https://gitlab.gnome.org/GNOME/gnome-shell-extensions
+  State: INITIALIZED

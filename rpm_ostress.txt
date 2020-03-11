@@ -1,0 +1,20 @@
+State: idle
+AutomaticUpdates: disabled
+Deployments:
+● ostree://fedora:fedora/31/x86_64/silverblue
+                   Version: 31.20200309.1 (2020-03-09T21:21:33Z)
+                BaseCommit: 32875b44e73b4a396abc78d6119ed3892eb5cadea86b749d9ba179e99b7118a5
+              GPGSignature: Valid signature by 7D22D5867F2A4236474BF7B850CB390B3C3359C4
+           LayeredPackages: adapta-gtk-theme awscli dnf dnf-plugins-core
+                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
+                            gparted jq micro net-tools tilix tldr
+             LocalPackages: rpmfusion-free-release-31-1.noarch
+
+  ostree://fedora:fedora/31/x86_64/silverblue
+                   Version: 31.20200307.0 (2020-03-07T23:59:57Z)
+                BaseCommit: ea1a5799011900f9482515fc774e09a34ff14bb7855ec7f54184c45212eb466b
+              GPGSignature: Valid signature by 7D22D5867F2A4236474BF7B850CB390B3C3359C4
+           LayeredPackages: adapta-gtk-theme awscli dnf dnf-plugins-core
+                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
+                            gparted jq micro net-tools tilix tldr
+             LocalPackages: rpmfusion-free-release-31-1.noarch
