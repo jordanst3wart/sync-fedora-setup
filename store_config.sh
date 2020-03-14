@@ -42,7 +42,7 @@ dnf(){
 }
 
 flatpak(){
-  flatpak list
+  flatpak list > flatpak.txt
 }
 
 # https://www.reddit.com/r/gnome/comments/20i743/syncing_gnome_settings_and_extensions_between/cg3phrf/
@@ -51,3 +51,4 @@ gnomeExt
 save_dconf
 dnf
 rpmOst
+flatpak
