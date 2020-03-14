@@ -11,3 +11,5 @@ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 /home/jstewart/.local/bin
 
 # other data :|
+
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
