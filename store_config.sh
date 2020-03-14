@@ -41,6 +41,10 @@ dnf(){
   dnf list installed > dnf_packages.txt
 }
 
+flatpak(){
+  flatpak list
+}
+
 # https://www.reddit.com/r/gnome/comments/20i743/syncing_gnome_settings_and_extensions_between/cg3phrf/
 
 gnomeExt
