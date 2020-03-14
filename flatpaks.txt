@@ -1,0 +1,19 @@
+Name                                             Application ID                                 Version             Branch            Origin                Installation
+Slack                                            com.slack.Slack                                4.3.2               stable            flathub               system
+Spotify                                          com.spotify.Client                             1.1.26.501          stable            flathub               system
+Visual Studio Code                               com.visualstudio.code                          1.43.0              stable            flathub               system
+Platform                                         org.fedoraproject.Platform                                         f29               fedora                system
+Platform                                         org.fedoraproject.Platform                                         f31               fedora                system
+Freedesktop Platform                             org.freedesktop.Platform                       19.08.8             19.08             flathub               system
+default                                          org.freedesktop.Platform.GL.default                                19.08             flathub               system
+FFmpeg extension                                 org.freedesktop.Platform.ffmpeg                                    1.6               flathub               system
+html5-codecs                                     org.freedesktop.Platform.html5-codecs                              18.08             flathub               system
+openh264                                         org.freedesktop.Platform.openh264                                  19.08             flathub               system
+Freedesktop SDK                                  org.freedesktop.Sdk                            18.08.37            18.08             flathub               system
+Freedesktop SDK                                  org.freedesktop.Sdk                            19.08.8             19.08             flathub               system
+GNU Image Manipulation Program                   org.gimp.GIMP                                  2.10.18             stable            fedora                system
+Calendar                                         org.gnome.Calendar                             3.34.2              stable            fedora                system
+GNOME Application Platform version 3.28          org.gnome.Platform                                                 3.28              flathub               system
+i386                                             org.gnome.Platform.Compat.i386                                     3.34              flathub               system
+i386                                             org.gnome.Platform.Compat.i386                                     3.34beta          flathub-beta          user
+Adapta-Nokto-Eta Gtk+ theme                      org.gtk.Gtk3theme.Adapta-Nokto-Eta                                 3.22              flathub               system
