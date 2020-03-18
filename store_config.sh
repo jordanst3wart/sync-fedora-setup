@@ -5,6 +5,8 @@
 # https://unix.stackexchange.com/questions/400025/activate-night-light-option-from-terminal
 # gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 
+# TODO get keyboard shortcuts, and store them
+
 
 # Tweaks
 # Generate list of extensions:
