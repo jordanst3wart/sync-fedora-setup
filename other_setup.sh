@@ -13,3 +13,7 @@ tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz
 # other data :|
 
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+
+# setup podman
+ln -sf /usr/bin/podman .local/bin/docker
+
