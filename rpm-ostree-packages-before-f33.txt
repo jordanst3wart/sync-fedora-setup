@@ -1,0 +1,23 @@
+AutomaticUpdates: stage; rpm-ostreed-automatic.timer: inactive
+Deployments:
+● ostree://fedora:fedora/32/x86_64/silverblue
+                   Version: 32.20201102.0 (2020-11-02T01:47:59Z)
+                BaseCommit: 9a3190b2c57c343ca27e03057a88b8d5f488d391283472549b52e144ee8a292d
+              GPGSignature: Valid signature by 97A1AE57C3A2372CCA3A4ABA6C13026D12C944D0
+           LayeredPackages: R awscli chromium dnf dnf-plugins-core
+                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
+                            gparted jq make micro net-tools python3-virtualenv python3.7
+                            tilix tldr
+             LocalPackages: rpmfusion-nonfree-release-32-1.noarch
+                            rpmfusion-free-release-32-1.noarch zoom-5.2.446620.0816-1.x86_64AutomaticUpdates: stage; rpm-ostreed-automatic.timer: inactive
+Deployments:
+● ostree://fedora:fedora/32/x86_64/silverblue
+                   Version: 32.20201102.0 (2020-11-02T01:47:59Z)
+                BaseCommit: 9a3190b2c57c343ca27e03057a88b8d5f488d391283472549b52e144ee8a292d
+              GPGSignature: Valid signature by 97A1AE57C3A2372CCA3A4ABA6C13026D12C944D0
+           LayeredPackages: R awscli chromium dnf dnf-plugins-core
+                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
+                            gparted jq make micro net-tools python3-virtualenv python3.7
+                            tilix tldr
+             LocalPackages: rpmfusion-nonfree-release-32-1.noarch
+                            rpmfusion-free-release-32-1.noarch zoom-5.2.446620.0816-1.x86_64
