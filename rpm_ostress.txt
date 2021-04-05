@@ -1,20 +1,52 @@
 State: idle
-AutomaticUpdates: disabled
+AutomaticUpdates: stage; rpm-ostreed-automatic.timer: inactive
 Deployments:
-● ostree://fedora:fedora/31/x86_64/silverblue
-                   Version: 31.20200309.1 (2020-03-09T21:21:33Z)
-                BaseCommit: 32875b44e73b4a396abc78d6119ed3892eb5cadea86b749d9ba179e99b7118a5
-              GPGSignature: Valid signature by 7D22D5867F2A4236474BF7B850CB390B3C3359C4
-           LayeredPackages: adapta-gtk-theme awscli dnf dnf-plugins-core
-                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
-                            gparted jq micro net-tools tilix tldr
-             LocalPackages: rpmfusion-free-release-31-1.noarch
+  ostree://fedora:fedora/33/x86_64/silverblue
+                   Version: 33.20210405.0 (2021-04-05T00:54:35Z)
+                BaseCommit: 43462d3c336c36aacfa066dee2f1e402dc9ef0964605d18d6a59e012e2b5272a
+              GPGSignature: Valid signature by 963A2BEB02009608FE67EA4249FD77499570FF31
+                      Diff: 1 upgraded, 1 removed
+           LayeredPackages: chromium cronie cronie-anacron dnf dnf-plugins-core
+                            'fedora-packager-0:0.6.0.4-2.fc33.noarch'
+                            fedora-workstation-repositories 'fedpkg-0:1.40-4.fc33.noarch'
+                            ffmpeg-libs fish git gnome-tweak-tool golang gparted jq make
+                            micro net-tools nmap openssl python3-virtualenv python3.7 tilix
+                            tito tldr yarnpkg
+             LocalPackages: code-1.53.2-1613044734.el7.x86_64 zoom-5.4.53350.1027-1.x86_64
+                            rpmfusion-nonfree-release-33-1.noarch
+                            rpmfusion-free-release-33-1.noarch teams-1.3.00.30857-1.x86_64
 
-  ostree://fedora:fedora/31/x86_64/silverblue
-                   Version: 31.20200307.0 (2020-03-07T23:59:57Z)
-                BaseCommit: ea1a5799011900f9482515fc774e09a34ff14bb7855ec7f54184c45212eb466b
-              GPGSignature: Valid signature by 7D22D5867F2A4236474BF7B850CB390B3C3359C4
-           LayeredPackages: adapta-gtk-theme awscli dnf dnf-plugins-core
-                            fedora-workstation-repositories ffmpeg-libs gnome-tweak-tool
-                            gparted jq micro net-tools tilix tldr
-             LocalPackages: rpmfusion-free-release-31-1.noarch
+● ostree://fedora:fedora/33/x86_64/silverblue
+                   Version: 33.20210404.0 (2021-04-04T00:53:26Z)
+                BaseCommit: 7a437826a313559cbbb027fee68ba2d1816edb2c41765e20f41c5d4f116fdf63
+              GPGSignature: Valid signature by 963A2BEB02009608FE67EA4249FD77499570FF31
+           LayeredPackages: chromium cronie cronie-anacron dkms dnf dnf-plugins-core
+                            'fedora-packager-0:0.6.0.4-2.fc33.noarch'
+                            fedora-workstation-repositories 'fedpkg-0:1.40-4.fc33.noarch'
+                            ffmpeg-libs fish gcc git gnome-tweak-tool golang gparted jq make
+                            micro net-tools nmap openssl python3-virtualenv python3.7 tilix
+                            tito tldr yarnpkg
+             LocalPackages: code-1.53.2-1613044734.el7.x86_64 zoom-5.4.53350.1027-1.x86_64
+                            rpmfusion-nonfree-release-33-1.noarch
+                            rpmfusion-free-release-33-1.noarch teams-1.3.00.30857-1.x86_64
+
+  ostree://fedora:fedora/33/x86_64/silverblue
+                   Version: 33.20210404.0 (2021-04-04T00:53:26Z)
+                BaseCommit: 7a437826a313559cbbb027fee68ba2d1816edb2c41765e20f41c5d4f116fdf63
+              GPGSignature: Valid signature by 963A2BEB02009608FE67EA4249FD77499570FF31
+           LayeredPackages: chromium cronie cronie-anacron dkms dnf dnf-plugins-core
+                            'fedora-packager-0:0.6.0.4-2.fc33.noarch'
+                            fedora-workstation-repositories 'fedpkg-0:1.40-4.fc33.noarch'
+                            ffmpeg-libs fish gcc git gnome-tweak-tool golang gparted jq make
+                            micro net-tools nmap openssl
+                            'python3-cheetah-0:3.2.4-5.fc33.x86_64' python3-virtualenv
+                            python3.7 tilix tito tldr yarnpkg
+             LocalPackages: code-1.53.2-1613044734.el7.x86_64 zoom-5.4.53350.1027-1.x86_64
+                            rpmfusion-nonfree-release-33-1.noarch
+                            rpmfusion-free-release-33-1.noarch teams-1.3.00.30857-1.x86_64
+
+AvailableUpdate:
+        Version: 33.20210405.0 (2021-04-05T00:54:35Z)
+         Commit: 43462d3c336c36aacfa066dee2f1e402dc9ef0964605d18d6a59e012e2b5272a
+   GPGSignature: Valid signature by 963A2BEB02009608FE67EA4249FD77499570FF31
+           Diff: 1 upgraded

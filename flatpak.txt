@@ -1,0 +1,14 @@
+Postman	com.getpostman.Postman	8.0.10	stable	flathub	system
+Slack	com.slack.Slack	4.14.0	stable	flathub	system
+Spotify	com.spotify.Client	1.1.55.498.gf9a83c60	stable	flathub	system
+Fedora Platform	org.fedoraproject.Platform	32	f32	fedora	system
+Fedora Platform	org.fedoraproject.Platform	33	f33	fedora	system
+Freedesktop Platform	org.freedesktop.Platform	19.08.14	19.08	flathub	system
+Freedesktop Platform	org.freedesktop.Platform	20.08.6	20.08	flathub	system
+default	org.freedesktop.Platform.GL.default		19.08	flathub	system
+default	org.freedesktop.Platform.GL.default		20.08	flathub	system
+openh264	org.freedesktop.Platform.openh264	2.1.0	2.0	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	19.08.14	19.08	flathub	system
+Freedesktop SDK	org.freedesktop.Sdk	20.08.6	20.08	flathub	system
+GNU Image Manipulation Program	org.gimp.GIMP	2.10.22	stable	fedora	system
+LibreOffice	org.libreoffice.LibreOffice	7.1.2.2	stable	flathub	system
