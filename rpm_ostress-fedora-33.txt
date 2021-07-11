@@ -1,19 +1,8 @@
-State: idle
+State: busy
 AutomaticUpdates: stage; rpm-ostreed-automatic.timer: inactive
+Transaction: upgrade 
+  Initiator: client(id:cli dbus:1.530 unit:vte-spawn-1fe8cefd-2d36-4d25-936c-e0548516d898.scope uid:1000)
 Deployments:
-  ostree://fedora:fedora/33/x86_64/silverblue
-                   Version: 33.20210711.0 (2021-07-11T00:43:33Z)
-                BaseCommit: d64eb9b7f58dbab4e3b2a8a03150bce41706801e27011a5133cc690ee01f6ccc
-              GPGSignature: Valid signature by 963A2BEB02009608FE67EA4249FD77499570FF31
-                      Diff: 9 upgraded
-           LayeredPackages: chromium cronie cronie-anacron dnf dnf-plugins-core
-                            docker-compose fedora-workstation-repositories ffmpeg-libs fish
-                            git gnome-tweak-tool gparted jq micro net-tools nmap openssl
-                            podman-docker python3-virtualenv tilix tito tldr yarnpkg
-             LocalPackages: code-1.53.2-1613044734.el7.x86_64 zoom-5.4.53350.1027-1.x86_64
-                            rpmfusion-nonfree-release-33-1.noarch
-                            rpmfusion-free-release-33-1.noarch
-
 ● ostree://fedora:fedora/33/x86_64/silverblue
                    Version: 33.20210708.0 (2021-07-08T00:43:51Z)
                 BaseCommit: b6338c39c7b3678de99959fbbda70abdff747cd2b30d2705e6d481cc348e9dcc
